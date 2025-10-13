@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2025-10-12T22:48:57+08:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2025-10-12T22:48:57+08:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="http://localhost:1313/en/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="zh-cn"
+      href="http://localhost:1313/"
+    />
+  </url>
+  <url>
+    <loc>http://localhost:1313/posts/%E4%BD%BF%E7%94%A8pcman%E5%8F%8Aaur%E5%8A%A9%E6%89%8B%E6%9B%B4%E6%96%B0%E6%97%B6%E5%BF%BD%E7%95%A5%E6%88%96%E6%9A%82%E6%97%B6%E5%BF%BD%E7%95%A5%E8%BD%AF%E4%BB%B6%E5%8C%85%E6%96%B9%E6%B3%95%E6%91%98%E8%A6%81/</loc>
+    <lastmod>2025-10-12T22:48:57+08:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+</urlset>
