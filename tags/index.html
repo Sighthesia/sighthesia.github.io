@@ -156,8 +156,8 @@
       defer
       type="text/javascript"
       id="script-bundle"
-      src="/js/main.bundle.min.9cc802d09f28c6af56ceee7bc6e320a39251fdae98243f2a9942f221ac57a9f49c51609699a91794a7b2580ee1deaa8e4d794a68ffa94aa317c66e893ce51e02.js"
-      integrity="sha512-nMgC0J8oxq9Wzu57xuMgo5JR/a6YJD8qmULyIaxXqfScUWCWmakXlKeyWA7h3qqOTXlKaP&#43;pSqMXxm6JPOUeAg=="
+      src="/js/main.bundle.min.5966a428de377f47000fa31ae9064cbaf59f7806c6ba8e0b69f3aefa154022ecff1bb88ab9d82eea7a26532465d9c599cdbbb74a87f7dbab888e8195c43c4b16.js"
+      integrity="sha512-WWakKN43f0cAD6Ma6QZMuvWfeAbGuo4LafOu&#43;hVAIuz/G7iKudgu6nomUyRl2cWZzbu3Sof326uIjoGVxDxLFg=="
       data-copy="复制"
       data-copied="已复制"></script>
   
@@ -229,34 +229,79 @@
 
   
   
+    <link rel="stylesheet" href="https://unpkg.com/@waline/client@v3/dist/waline.css">
+<style>
+     
+    :root {
+        --waline-font-size: 16px;
+
+         
+        --waline-white: #fff;
+        --waline-light-grey: rgb(var(--color-neutral-400));
+        --waline-dark-grey: rgb(var(--color-neutral-700));
+
+         
+        --waline-theme-color: rgb(var(--color-primary-500));
+        --waline-active-color: rgb(var(--color-primary-600));
+
+         
+        --waline-color: rgb(var(--color-neutral-700));
+        --waline-bg-color: rgb(var(--color-neutral-50));
+        --waline-bg-color-light: rgb(var(--color-neutral-100));
+        --waline-bg-color-hover: rgb(var(--color-neutral-200));
+        --waline-border-color: rgb(var(--color-neutral-300));
+        --waline-disable-bg-color: rgb(var(--color-neutral-200));
+        --waline-disable-color: rgb(var(--color-neutral-500));
+        --waline-code-bg-color: rgb(var(--color-neutral-100));
+        --waline-bq-color: rgb(var(--color-neutral-100));
+
+        --waline-avatar-size: 3.25rem;
+        --waline-badge-color: rgb(var(--color-secondary-500));
+        --waline-info-bg-color: rgba(var(--color-secondary-100), 1);
+        --waline-info-color: rgb(var(--color-secondary-700));
+
+        --waline-border: 1px solid var(--waline-border-color);
+        --waline-avatar-radius: 50%;
+        --waline-box-shadow: 0 10px 20px rgba(0, 0, 0, .05);
+    }
+
+     
+    .dark {
+        --waline-white: #000;
+        --waline-light-grey: rgb(var(--color-neutral-300));
+        --waline-dark-grey: rgb(var(--color-neutral-600));
+
+        --waline-color: rgb(var(--color-neutral-300));
+        --waline-bg-color: rgb(var(--color-neutral-900));
+        --waline-bg-color-light: rgb(var(--color-neutral-800));
+        --waline-bg-color-hover: rgb(var(--color-neutral-800));
+        --waline-border-color: rgb(var(--color-neutral-700));
+        --waline-disable-bg-color: rgb(var(--color-neutral-800));
+        --waline-disable-color: rgb(var(--color-neutral-500));
+        --waline-code-bg-color: rgb(var(--color-neutral-800));
+        --waline-bq-color: rgb(var(--color-neutral-800));
+
+        --waline-info-bg-color: rgba(var(--color-secondary-900), .35);
+        --waline-info-color: rgb(var(--color-secondary-300));
+        --waline-badge-color: rgb(var(--color-secondary-400));
+        --waline-box-shadow: 0 10px 20px rgba(0, 0, 0, .2);
+    }
+
+     
+    .waline-pageview-count {
+        color: rgb(var(--color-neutral-600));
+    }
+
+    .dark .waline-pageview-count {
+        color: rgb(var(--color-neutral-300));
+    }
+</style>
+  
 
   
   
 
   
-  
-    
-      <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
-      <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
-      <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
-      <script>
-
-    const firebaseConfig = {
-      apiKey: "AIzaSyC2PqvkLmurQEjpjPxNl50aQjtXjLOf9pM",
-      authDomain: "sighthesia-s-blog.firebaseapp.com",
-      projectId: "sighthesia-s-blog",
-      storageBucket: "sighthesia-s-blog.firebasestorage.app",
-      messagingSenderId: "1087922454289",
-      appId: "1:1087922454289:web:e86d977b64af722a2316b0",
-      measurementId: "G-8TXM2EBRH4"
-    };
-
-        var app = firebase.initializeApp(firebaseConfig);
-        var db = firebase.firestore();
-        var auth = firebase.auth();
-
-      </script>
-    
   
 
   
@@ -926,6 +971,26 @@
     src="/js/process.min.ee03488f19c93c2efb199e2e3014ea5f3cb2ce7d45154adb3399a158cac27ca52831db249ede5bb602700ef87eb02434139de0858af1818ab0fb4182472204a4.js"
     integrity="sha512-7gNIjxnJPC77GZ4uMBTqXzyyzn1FFUrbM5mhWMrCfKUoMdsknt5btgJwDvh&#43;sCQ0E53ghYrxgYqw&#43;0GCRyIEpA=="></script>
   
+  
+    <script type="module">
+    const serverURL = "https:\/\/sighthesia-s-blog.vercel.app\/";
+    if (serverURL) {
+        import('https://unpkg.com/@waline/client@v3/dist/waline.js').then(({ init }) => {
+            const hasComments = !!document.getElementById('waline');
+            const hasCounters = document.querySelectorAll('.waline-pageview-count').length > 0;
+            const options = { serverURL };
+            if (hasComments) {
+                options.el = '#waline';
+                options.pageview = hasCounters ? '.waline-pageview-count' : true;
+            } else if (hasCounters) {
+                options.pageview = '.waline-pageview-count';
+            }
+            if (options.pageview || options.el) {
+                init(options);
+            }
+        });
+    }
+</script>
   
 </footer>
 <div
