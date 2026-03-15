@@ -120,8 +120,8 @@
   <link
     type="text/css"
     rel="stylesheet"
-    href="/css/main.bundle.min.ab019b470a037de88534469a63d83f2ae827f1a4f6cc1652eb35e9cfb8ee0b755fb78707ef83dad4c389ff60bccc0bf2b16a8f86a7fca77fb6b5a2a36e9b266a.css"
-    integrity="sha512-qwGbRwoDfeiFNEaaY9g/Kugn8aT2zBZS6zXpz7juC3Vft4cH74Pa1MOJ/2C8zAvysWqPhqf8p3&#43;2taKjbpsmag==">
+    href="/css/main.bundle.min.9d9d71d26c2e825121c641318431e491a670625d5755fa4f65897b2482e0a438e9210017afe3c2fb25e0104a6dc06a8113c029fd632bafd806cc528fcdf9a6bd.css"
+    integrity="sha512-nZ1x0mwuglEhxkExhDHkkaZwYl1XVfpPZYl7JILgpDjpIQAXr&#43;PC&#43;yXgEEptwGqBE8Ap/WMrr9gGzFKPzfmmvQ==">
 
   
   
@@ -166,8 +166,8 @@
       defer
       type="text/javascript"
       id="script-bundle"
-      src="/js/main.bundle.min.0e2e7ce1e319db5369cd4badb8265de52c78d08df54617521bdac9c8cd335eea6133a82c83f9cb19baf67b8133335130e7e8ff7cfeaf7171016648dbf5a0578a.js"
-      integrity="sha512-Di584eMZ21NpzUutuCZd5Sx40I31RhdSG9rJyM0zXuphM6gsg/nLGbr2e4EzM1Ew5&#43;j/fP6vcXEBZkjb9aBXig=="
+      src="/js/main.bundle.min.6b483bdc9246a18b35259ce2a40e363ade34a01edf2f3a31094f0a396844e75f863d18735a89b85ee8301f2dfdb9e471bdf47c44483d4b8f0d6eb93701873824.js"
+      integrity="sha512-a0g73JJGoYs1JZzipA42Ot40oB7fLzoxCU8KOWhE51&#43;GPRhzWom4XugwHy39ueRxvfR8REg9S48Nbrk3AYc4JA=="
       data-copy="复制"
       data-copied="已复制"></script>
   
@@ -175,10 +175,6 @@
   
   
 
-<script src="/lib/jquery/jquery.slim.min.b0dca576e87d7eaa5850ae4e61759c065786cdb6489d68fcc82240539eebd5da522bdb4fda085ffd245808c8fe2acb2516408eb774ef26b5f6015fc6737c0ea8.js" integrity="sha512-sNylduh9fqpYUK5OYXWcBleGzbZInWj8yCJAU57r1dpSK9tP2ghf/SRYCMj&#43;KsslFkCOt3TvJrX2AV/Gc3wOqA=="></script>
-
-
-
 
 
 
@@ -211,6 +207,11 @@
   
 
   
+
+
+
+
+
 
 
 
@@ -269,9 +270,6 @@
   
   
     
-  
-
-  
   
 
   
@@ -900,12 +898,14 @@
       <div class="text-sm text-neutral-700 dark:text-neutral-400">做自己喜欢的 XD</div>
     
     <div class="text-2xl sm:text-lg">
-  <div class="flex flex-wrap text-neutral-400 dark:text-neutral-500">
+  <div class="flex flex-wrap text-neutral-400 dark:text-neutral-500 space-x-2">
     
       
+        
         <a
-          class="px-1 hover:text-primary-700 dark:hover:text-primary-400"
+          class=" hover:text-primary-700 dark:hover:text-primary-400"
           href="https://space.bilibili.com/351321394"
+          
           target="_blank"
           aria-label="Bilibili"
           title="Bilibili"
@@ -915,9 +915,11 @@
       
     
       
+        
         <a
-          class="px-1 hover:text-primary-700 dark:hover:text-primary-400"
+          class=" hover:text-primary-700 dark:hover:text-primary-400"
           href="https://github.com/Sighthesia"
+          
           target="_blank"
           aria-label="Github"
           title="Github"
@@ -928,9 +930,11 @@
       
     
       
+        
         <a
-          class="px-1 hover:text-primary-700 dark:hover:text-primary-400"
+          class=" hover:text-primary-700 dark:hover:text-primary-400"
           href="https://blog.csdn.net/ZxeeGX"
+          
           target="_blank"
           aria-label="Csdn"
           title="Csdn"
@@ -977,12 +981,20 @@
     class="min-w-[220px] py-2 border-dotted border-s-1 -ms-5 ps-5 dark:border-neutral-600">
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#1-迁移数据">1. 迁移数据</a></li>
-    <li><a href="#2-重建引导">2. 重建引导</a></li>
-  </ul>
-
-  <ul>
-    <li><a href="#附录">附录</a></li>
+    <li><a href="#前情">前情</a></li>
+    <li><a href="#思路">思路</a></li>
+    <li><a href="#准备">准备</a></li>
+    <li><a href="#具体操作">具体操作</a>
+      <ul>
+        <li><a href="#1-迁移数据">1. 迁移数据</a></li>
+        <li><a href="#2-重建引导">2. 重建引导</a></li>
+      </ul>
+    </li>
+    <li><a href="#后记">后记</a>
+      <ul>
+        <li><a href="#附录">附录</a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
   </div>
@@ -996,12 +1008,20 @@
     class="py-2 border-dotted border-neutral-300 border-s-1 -ms-5 ps-5 dark:border-neutral-600">
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#1-迁移数据">1. 迁移数据</a></li>
-    <li><a href="#2-重建引导">2. 重建引导</a></li>
-  </ul>
-
-  <ul>
-    <li><a href="#附录">附录</a></li>
+    <li><a href="#前情">前情</a></li>
+    <li><a href="#思路">思路</a></li>
+    <li><a href="#准备">准备</a></li>
+    <li><a href="#具体操作">具体操作</a>
+      <ul>
+        <li><a href="#1-迁移数据">1. 迁移数据</a></li>
+        <li><a href="#2-重建引导">2. 重建引导</a></li>
+      </ul>
+    </li>
+    <li><a href="#后记">后记</a>
+      <ul>
+        <li><a href="#附录">附录</a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
   </div>
@@ -1042,7 +1062,7 @@
 
         <div class="article-content max-w-prose mb-20">
           
-<h1 class="relative group">前情
+<h2 class="relative group">前情
     <div id="前情" class="anchor"></div>
     
     <span
@@ -1050,11 +1070,11 @@
         <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#%e5%89%8d%e6%83%85" aria-label="锚点">#</a>
     </span>
     
-</h1>
+</h2>
 <p>最开始用Arch Linux是单盘512GB，分了一大块Btrfs分区，分了<code>@</code>字卷挂载到<code>/</code>上。后来因为自己配置的Snapper出问题了，快照占了几百个GB（而且我还不知道），于是就又新增了一块512GB的，使用<code>sudo btrfs device add /dev/nvme1n1 /</code>很轻松把两块盘合并到一起了，再使用Btrfs Assistant进行了blance，均分两块硬盘数据。</p>
 <p>最近因为固态涨价，我动了动聪明的头脑一想，这不是购入一块1TB固态来上位替换两块512GB固态的大好时机？（实际上并不是（）询问AI可行性和方法后，我就开始了这次迁移。</p>
 
-<h1 class="relative group">思路
+<h2 class="relative group">思路
     <div id="思路" class="anchor"></div>
     
     <span
@@ -1062,12 +1082,12 @@
         <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#%e6%80%9d%e8%b7%af" aria-label="锚点">#</a>
     </span>
     
-</h1>
+</h2>
 <ul>
 <li>利用Btrfs的RAID/Device特性，先把新硬盘加入到设备池中，再将旧硬盘移出设备池，数据便会自动从旧硬盘迁移到新硬盘，全程系统可正常使用，非常方便！</li>
 </ul>
 
-<h1 class="relative group">准备
+<h2 class="relative group">准备
     <div id="准备" class="anchor"></div>
     
     <span
@@ -1075,7 +1095,7 @@
         <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#%e5%87%86%e5%a4%87" aria-label="锚点">#</a>
     </span>
     
-</h1>
+</h2>
 <ol>
 <li>硬盘盒：因为我的笔记本只有两个M2硬盘位，Btrfs设备池操作需要所有硬盘同时在线，所以需要一个外置的M2硬盘盒来连接新硬盘。我选择闲鱼20元购买了<strong>RTL9210B</strong>硬盘盒，不仅温度比JMS583低，还支NVME和SATA两种硬盘。</li>
 <li>格式化和创建分区：新硬盘到手，删除所有分区，保证有GPT分区表，然后先创建一个fat32格式的EFI分区使其在硬盘前部，512MB即可，<strong>否则没有办法配置引导，只能备份数据删除所有分区重来</strong>（我可是亲身体会了;-;，不过可以用U盘创建临时的引导分区引导系统启动）。然后剩下的空间创建linux filesystem格式的分区即可，或Btrfs格式（不过加入存储池会让你重新格式化），不需要格式化，Btrfs会自动处理。</li>
@@ -1083,7 +1103,7 @@
 <li>准备一个U盘，安装Ventoy，并将Arch Install ISO放到U盘中（可选但建议）：万一操作错误无法启动系统，可以进入安装环境进行修复。</li>
 </ol>
 
-<h1 class="relative group">具体操作
+<h2 class="relative group">具体操作
     <div id="具体操作" class="anchor"></div>
     
     <span
@@ -1091,10 +1111,10 @@
         <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#%e5%85%b7%e4%bd%93%e6%93%8d%e4%bd%9c" aria-label="锚点">#</a>
     </span>
     
-</h1>
+</h2>
 <p>准备好后，插入硬盘盒连接新硬盘，使用<code>lsblk -f</code>确认新硬盘设备名（无其它USB存储设备且新硬盘分好了EFI分区时为<code>/dev/sda2</code>），然后开始操作：</p>
 
-<h2 class="relative group">1. 迁移数据
+<h3 class="relative group">1. 迁移数据
     <div id="1-迁移数据" class="anchor"></div>
     
     <span
@@ -1102,7 +1122,7 @@
         <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#1-%e8%bf%81%e7%a7%bb%e6%95%b0%e6%8d%ae" aria-label="锚点">#</a>
     </span>
     
-</h2>
+</h3>
 <ol>
 <li>将设备加入到设备池：
 <div class="highlight-wrapper"><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo btrfs device add /dev/sda1 /</span></span></code></pre></div></div>
@@ -1126,7 +1146,7 @@
 这个过程会比较久，取决于数据量大小，可以使用<code>sudo btrfs filesystem show /</code>查看迁移进度，等待旧设备的<code>used</code>变为0，终端命令结束即完成，期间系统可以正常使用，中途<strong>绝对不要断电</strong>！</li>
 </ol>
 
-<h2 class="relative group">2. 重建引导
+<h3 class="relative group">2. 重建引导
     <div id="2-重建引导" class="anchor"></div>
     
     <span
@@ -1134,7 +1154,7 @@
         <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#2-%e9%87%8d%e5%bb%ba%e5%bc%95%e5%af%bc" aria-label="锚点">#</a>
     </span>
     
-</h2>
+</h3>
 <p>完成数据迁移后，先不要关机，也不要拔掉硬盘，由于引导分区还在旧硬盘上，并且fstab中挂载的EFI分区的UUID仍然还是旧硬盘的，所以关机后进不了系统，需要为新硬盘的EFI分区重建引导，并修改fstab。</p>
 <ul>
 <li>Btrfs的UUID是由文件系统格式化时生成的标识符，而迁移操作会将UUID一并迁移，所以只需要修改新创建的EFI分区的UUID即可。</li>
@@ -1168,7 +1188,7 @@
 </li>
 </ol>
 
-<h1 class="relative group">后记
+<h2 class="relative group">后记
     <div id="后记" class="anchor"></div>
     
     <span
@@ -1176,10 +1196,10 @@
         <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#%e5%90%8e%e8%ae%b0" aria-label="锚点">#</a>
     </span>
     
-</h1>
+</h2>
 <p>到这里没出错的话，迁移就完成了。操作全是Gemini 3教我的，太强了。</p>
 
-<h2 class="relative group">附录
+<h3 class="relative group">附录
     <div id="附录" class="anchor"></div>
     
     <span
@@ -1187,7 +1207,7 @@
         <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#%e9%99%84%e5%bd%95" aria-label="锚点">#</a>
     </span>
     
-</h2>
+</h3>
 <p>我的Btrfs fstab的挂载配置优化，可供参考：</p>
 <div class="highlight-wrapper"><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl"><span class="c1"># root</span>
 </span></span><span class="line"><span class="cl"><span class="nv">UUID</span><span class="o">=</span>e1566f33-3898-4c77-beb8-d1bcf2588967 / btrfs defaults,subvol<span class="o">=</span>@,noatime,compress<span class="o">=</span>zstd:3,discard<span class="o">=</span>async,space_cache<span class="o">=</span>v2 <span class="m">0</span> <span class="m">1</span>
@@ -1578,23 +1598,6 @@
 
 
       </div>
-
-      
-      
-        
-        
-          
-          
-        
-        
-        
-        <script
-          type="text/javascript"
-          src="/js/page.min.54b6f4371722649edbe871e431d8670d670878c22be8f36e229fe53cc9b786fe25a834def5e6de621f7a3e37b72bc8cd73839aa5ed907ed6cbd45cd3e1b0fa20.js"
-          integrity="sha512-VLb0NxciZJ7b6HHkMdhnDWcIeMIr6PNuIp/lPMm3hv4lqDTe9ebeYh96Pje3K8jNc4Oape2QftbL1FzT4bD6IA=="
-          data-oid="views_posts/Arch Linux Btrfs下系统双硬盘迁移到大容量单硬盘记录.md"
-          data-oid-likes="likes_posts/Arch Linux Btrfs下系统双硬盘迁移到大容量单硬盘记录.md"></script>
-      
     </section>
 
     
@@ -1647,7 +1650,7 @@
       
         
           <div class="pt-3">
-            <hr class="border-dotted border-neutral-300 dark:border-neutral-600">
+            <hr class="border-dotted border-neutral-300 dark:border-neutral-600" />
             <div class="pt-3">
               <script src="https://giscus.app/client.js" data-repo="Sighthesia/sighthesia.github.io" data-repo-id="R_kgDOO2XQ8w"
         data-category="Announcements" data-category-id="DIC_kwDOO2XQ884Cw2G7" data-mapping="pathname" data-strict="0"
@@ -1754,12 +1757,6 @@
       });
     </script>
   
-  
-  
-  <script
-    type="text/javascript"
-    src="/js/process.min.ee03488f19c93c2efb199e2e3014ea5f3cb2ce7d45154adb3399a158cac27ca52831db249ede5bb602700ef87eb02434139de0858af1818ab0fb4182472204a4.js"
-    integrity="sha512-7gNIjxnJPC77GZ4uMBTqXzyyzn1FFUrbM5mhWMrCfKUoMdsknt5btgJwDvh&#43;sCQ0E53ghYrxgYqw&#43;0GCRyIEpA=="></script>
   
   
     
