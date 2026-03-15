@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>© 2026 Sighthesia</copyright>
-    <lastBuildDate>Wed, 11 Feb 2026 20:03:59 +0800</lastBuildDate><atom:link href="https://sighthesia.github.io/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 15 Mar 2026 13:00:53 +0800</lastBuildDate><atom:link href="https://sighthesia.github.io/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Linux下开启立创EDA WebGPU加速的一些方法（浏览器网页版和客户端）</title>
+      <link>https://sighthesia.github.io/posts/linux%E4%B8%8B%E5%BC%80%E5%90%AF%E7%AB%8B%E5%88%9Beda-webgpu%E5%8A%A0%E9%80%9F%E7%9A%84%E4%B8%80%E4%BA%9B%E6%96%B9%E6%B3%95%E6%B5%8F%E8%A7%88%E5%99%A8%E7%BD%91%E9%A1%B5%E7%89%88%E5%92%8C%E5%AE%A2%E6%88%B7%E7%AB%AF/</link>
+      <pubDate>Sun, 15 Mar 2026 13:00:53 +0800</pubDate>
+      
+      <guid>https://sighthesia.github.io/posts/linux%E4%B8%8B%E5%BC%80%E5%90%AF%E7%AB%8B%E5%88%9Beda-webgpu%E5%8A%A0%E9%80%9F%E7%9A%84%E4%B8%80%E4%BA%9B%E6%96%B9%E6%B3%95%E6%B5%8F%E8%A7%88%E5%99%A8%E7%BD%91%E9%A1%B5%E7%89%88%E5%92%8C%E5%AE%A2%E6%88%B7%E7%AB%AF/</guid>
+      <description></description>
+      
+    </item>
     
     <item>
       <title>Arch Linux Btrfs下系统从双硬盘迁移到大容量单硬盘记录</title>
