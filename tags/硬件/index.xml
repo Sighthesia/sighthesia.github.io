@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>© 2026 Sighthesia</copyright>
-    <lastBuildDate>Sun, 15 Mar 2026 13:00:53 +0800</lastBuildDate><atom:link href="https://sighthesia.github.io/tags/%E7%A1%AC%E4%BB%B6/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 26 Sep 2026 18:12:28 +0800</lastBuildDate><atom:link href="https://sighthesia.github.io/tags/%E7%A1%AC%E4%BB%B6/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>记录Advantest R6552背光电路修复</title>
+      <link>https://sighthesia.github.io/posts/%E8%AE%B0%E5%BD%95advantest-r6552%E8%83%8C%E5%85%89%E7%94%B5%E8%B7%AF%E4%BF%AE%E5%A4%8D/</link>
+      <pubDate>Sat, 26 Sep 2026 18:12:28 +0800</pubDate>
+      
+      <guid>https://sighthesia.github.io/posts/%E8%AE%B0%E5%BD%95advantest-r6552%E8%83%8C%E5%85%89%E7%94%B5%E8%B7%AF%E4%BF%AE%E5%A4%8D/</guid>
+      <description></description>
+      
+    </item>
     
     <item>
       <title>Linux下开启立创EDA WebGPU加速的一些方法（浏览器网页版和客户端）</title>

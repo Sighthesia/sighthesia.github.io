@@ -7,14 +7,14 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>© 2026 Sighthesia</copyright>
-    <lastBuildDate>Sun, 15 Mar 2026 13:00:53 +0800</lastBuildDate><atom:link href="https://sighthesia.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 26 Sep 2026 18:12:28 +0800</lastBuildDate><atom:link href="https://sighthesia.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Linux</title>
-      <link>https://sighthesia.github.io/tags/linux/</link>
-      <pubDate>Sun, 15 Mar 2026 13:00:53 +0800</pubDate>
+      <title>DIY</title>
+      <link>https://sighthesia.github.io/tags/diy/</link>
+      <pubDate>Sat, 26 Sep 2026 18:12:28 +0800</pubDate>
       
-      <guid>https://sighthesia.github.io/tags/linux/</guid>
+      <guid>https://sighthesia.github.io/tags/diy/</guid>
       <description></description>
       
     </item>
@@ -22,9 +22,19 @@
     <item>
       <title>硬件</title>
       <link>https://sighthesia.github.io/tags/%E7%A1%AC%E4%BB%B6/</link>
-      <pubDate>Sun, 15 Mar 2026 13:00:53 +0800</pubDate>
+      <pubDate>Sat, 26 Sep 2026 18:12:28 +0800</pubDate>
       
       <guid>https://sighthesia.github.io/tags/%E7%A1%AC%E4%BB%B6/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Linux</title>
+      <link>https://sighthesia.github.io/tags/linux/</link>
+      <pubDate>Sun, 15 Mar 2026 13:00:53 +0800</pubDate>
+      
+      <guid>https://sighthesia.github.io/tags/linux/</guid>
       <description></description>
       
     </item>
